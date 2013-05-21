@@ -1,0 +1,170 @@
+/* 
+    Document   : custom001
+    Created on : 26 sept. 2012, 23:30:17
+    Author     : vortigern
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+.body{
+    font-family: verdana;
+}
+
+.qq-uploader { position:relative; width: 100%;}
+
+.qq-upload-button {
+    display:block; /* or inline-block */
+    width: 100%; padding: 7px 0; text-align:center;
+    background:#A0A0A0; border-bottom:1px solid #ddd;color:#fff;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.qq-upload-button-hover {background:#cc0000;}
+.qq-upload-button-focus {outline:1px dotted black;}
+
+.qq-upload-drop-area {
+    position:absolute; top:0; left:0; width:100%; height:100%; min-height: 10px; z-index:2;
+    background:#FF9797; text-align:center;
+}
+.qq-upload-drop-area span {
+    display:block; position:absolute; top: 50%; width:100%; margin-top:-8px; font-size:16px;
+}
+.qq-upload-drop-area-active {background:#FF7171;}
+
+.qq-upload-list {margin:15px 35px; padding:0; list-style:disc;}
+.qq-upload-list li { margin:0; padding:0; line-height:15px; font-size:12px;}
+.qq-upload-file, .qq-upload-spinner, .qq-upload-size, .qq-upload-cancel, .qq-upload-failed-text {
+    margin-right: 7px;
+}
+
+.qq-upload-file {}
+/*.qq-upload-spinner {display:inline-block; background: url(""${resource(dir:'js/valums-file-uploader/client',file:'loading.gif')}"); width:15px; height:15px; vertical-align:text-bottom;}*/
+.qq-upload-spinner {display:inline-block; background: url('/static/js/valums-file-uploader/client/loading.gif')""; width:15px; height:15px; vertical-align:text-bottom;}
+
+.qq-upload-size,.qq-upload-cancel {font-size:11px;}
+
+.qq-upload-failed-text {display:none;}
+.qq-upload-fail .qq-upload-failed-text {display:inline;}
+
+.custombox001 {
+    background-color:#F0F0F0;
+    border:1px solid silver;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    box-shadow:#C0C0C0 5px 5px 3px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:5px;
+    margin-bottom:15px;
+    padding:5px 8px;
+    vertical-align:top;
+    opacity:0.9;
+    min-width: 400px;
+    max-width: 980px;
+} 
+
+
+.searchField{
+    display:inline;
+    width:250px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;        
+}
+
+.searchBox{
+    width:350px;
+    margin-left:auto;
+    margin-right:auto;     
+}
+
+.custombox002 {
+    background-color:#F0F0F0;
+    border:1px solid silver;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    box-shadow:#C0C0C0 5px 5px 3px;
+    display:inline-block;
+    margin:4px 12px 12px 4px;
+    min-height:320px;
+    padding:5px 8px;
+    vertical-align:top;
+    width:430px;
+}
+
+.fileresultblock {
+    width:33%;
+    margin: 5px;
+    border-right: 1px solid silver;
+}
+
+.commentresultblock {
+    width:33%;
+}
+
+.tagresultblock {
+    width:33%;    
+}
+
+.singlefileresult {
+    width:100%;
+    /*overflow-x:hidden;*/
+    word-wrap: break-word;
+}
+
+.singlecommentresult {
+    
+}
+
+.singletagresult {
+    
+}
+
+div.download {
+    text-decoration: none;
+    text-align: center;
+    width:150px;  
+    float:right;
+}
+
+.download *{
+    text-decoration: none;
+    text-align: center;  
+}
+
+.downloadbox{
+    height: 200px;
+}
+
+div.attribute {
+    
+}
+
+label.attribute {
+    font-weight: bold ;
+    display: inline;
+}
+
+div.attributevalue {
+    color:dimgrey ;
+    display: inline;
+}
+
+a.gohome {
+    position: absolute ;
+    top: 5px;
+    left: 5px;
+}
+
